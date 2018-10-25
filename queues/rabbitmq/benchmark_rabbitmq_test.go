@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matryer/is"
+	"github.com/wmccracken/is"
 )
 
 func BenchmarkTransport(b *testing.B) {

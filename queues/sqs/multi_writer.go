@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/matryer/vice"
+	"github.com/wmccracken/vice"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"

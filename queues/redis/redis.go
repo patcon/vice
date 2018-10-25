@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/matryer/vice"
+	"github.com/wmccracken/vice"
 )
 
 // Transport is a vice.Transport for redis.

@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matryer/is"
-	"github.com/matryer/vice"
+	"github.com/wmccracken/is"
+	"github.com/wmccracken/vice"
 )
 
 // Transport runs standard transport tests. All Transport types pass
 // this test.
 //
-// For more information see https://github.com/matryer/vice/blob/master/docs/writing-transports.md
+// For more information see https://github.com/wmccracken/vice/blob/master/docs/writing-transports.md
 //
 // Transports should be initialised with a clean state. Old persisted messages
 // can interfere with the test.

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matryer/is"
-	"github.com/matryer/vice"
-	"github.com/matryer/vice/vicetest"
+	"github.com/wmccracken/is"
+	"github.com/wmccracken/vice"
+	"github.com/wmccracken/vice/vicetest"
 	"github.com/nsqio/go-nsq"
 )
 

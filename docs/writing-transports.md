@@ -1,10 +1,10 @@
 # Writing `vice.Transport` implementations
 
-Queuing transports implement the [vice.Transport](https://github.com/matryer/vice/blob/master/transport.go) interface.
+Queuing transports implement the [vice.Transport](https://github.com/wmccracken/vice/blob/master/transport.go) interface.
 
 ## Before you start
 
-Ensure the technology is not already implemented by checking the [queues](https://github.com/matryer/vice/tree/master/queues) folder.
+Ensure the technology is not already implemented by checking the [queues](https://github.com/wmccracken/vice/tree/master/queues) folder.
 
 ## Specification test
 
@@ -15,7 +15,7 @@ package my_transport
 
 import (
 	"testing"
-	"github.com/matryer/vice/vicetest"
+	"github.com/wmccracken/vice/vicetest"
 )
 
 func TestTransport(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/matryer/vice"
+	"github.com/wmccracken/vice"
 	"github.com/nats-io/go-nats"
 	"github.com/nats-io/go-nats-streaming"
 )
